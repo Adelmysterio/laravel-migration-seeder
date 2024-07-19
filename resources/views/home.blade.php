@@ -5,8 +5,8 @@
         <h1>Elenco dei Treni</h1>
         @foreach ($trains as $train)
             <article>
-                <h2>{{ $train->Azienda }}</h2>
-                <p>Stazione di partenza: {{ $train['Stazione di partenza'] }}</p>
+                <h2>{{ $train->azienda }}</h2>
+                <p>Stazione di partenza: {{ $train->stazione_partenza }}</p>
                 <p>Stazione di arrivo: {{ $train['Stazione di arrivo'] }}</p>
                 <p>Orario di partenza: {{ $train['Orario di partenza'] }}</p>
                 <p>Orario di arrivo: {{ $train['Orario di arrivo'] }}</p>
